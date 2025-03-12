@@ -1,4 +1,4 @@
-# Docker container with DynamoDB and Dynamodb Admin UI.
+# Docker container with DynamoDB and Dynamodb Admin UI 🐳
 
 This DynamoDB setup is ideal for local development, providing a seamless and efficient environment for testing and building applications.
 
