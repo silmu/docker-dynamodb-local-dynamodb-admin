@@ -1,0 +1,10 @@
+FROM amazon/dynamodb-local:latest
+
+USER root
+
+RUN dnf update -y && dnf install -y aws-cli
+
+RUN aws configure set aws_access_key_id secret \
+    && aws configure set aws_secret_access_key key \
+    && aws configure set region us-east-1 \
+    && aws configure set output json

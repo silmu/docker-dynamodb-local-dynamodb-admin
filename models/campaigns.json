@@ -1,0 +1,9 @@
+{
+  "TableName": "campaigns",
+  "AttributeDefinitions": [{ "AttributeName": "campaign_id", "AttributeType": "N" }],
+  "KeySchema": [{ "AttributeName": "campaign_id", "KeyType": "HASH" }],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 5,
+    "WriteCapacityUnits": 5
+  }
+}

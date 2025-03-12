@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "PutRequest": {
+        "Item": {
+          "UserID": { "S": "user123" },
+          "Username": { "S": "john_doe" },
+          "Email": { "S": "john.doe@example.com" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "UserID": { "S": "user456" },
+          "Username": { "S": "jane_smith" },
+          "Email": { "S": "jane.smith@example.com" }
+        }
+      }
+    }
+  ]
+}

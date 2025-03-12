@@ -1,0 +1,64 @@
+{
+  "campaigns": [
+    {
+      "PutRequest": {
+        "Item": {
+          "campaign_id": { "N": "1" },
+          "campaign_name": { "S": "Summer Sale" },
+          "start_date": { "S": "2023-06-01" },
+          "end_date": { "S": "2023-06-30" },
+          "budget": { "N": "5000" },
+          "status": { "S": "Active" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "campaign_id": { "N": "2" },
+          "campaign_name": { "S": "Black Friday" },
+          "start_date": { "S": "2023-11-24" },
+          "end_date": { "S": "2023-11-27" },
+          "budget": { "N": "10000" },
+          "status": { "S": "Planned" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "campaign_id": { "N": "3" },
+          "campaign_name": { "S": "Holiday Special" },
+          "start_date": { "S": "2023-12-15" },
+          "end_date": { "S": "2023-12-31" },
+          "budget": { "N": "7500" },
+          "status": { "S": "Active" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "campaign_id": { "N": "4" },
+          "campaign_name": { "S": "New Year Kickoff" },
+          "start_date": { "S": "2024-01-01" },
+          "end_date": { "S": "2024-01-07" },
+          "budget": { "N": "3000" },
+          "status": { "S": "Planned" }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "campaign_id": { "N": "5" },
+          "campaign_name": { "S": "Spring Clearance" },
+          "start_date": { "S": "2024-03-01" },
+          "end_date": { "S": "2024-03-15" },
+          "budget": { "N": "6000" },
+          "status": { "S": "Active" }
+        }
+      }
+    }
+  ]
+}
